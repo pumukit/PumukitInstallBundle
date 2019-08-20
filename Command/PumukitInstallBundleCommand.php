@@ -1,8 +1,8 @@
 <?php
 
-namespace Pumukit\InstallBundleBundle\Command;
+namespace Pumukit\InstallBundle\Command;
 
-use Pumukit\InstallBundleBundle\Manipulator\RoutingManipulator;
+use Pumukit\InstallBundle\Manipulator\RoutingManipulator;
 use Sensio\Bundle\GeneratorBundle\Manipulator\KernelManipulator;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputArgument;

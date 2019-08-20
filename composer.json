@@ -1,0 +1,29 @@
+{
+    "name": "teltek/pumukit-install-bundle",
+    "type": "symfony-bundle",
+    "description": "Install bundle tool for PuMuKIT",
+    "keywords": [
+        "install",
+        "symfony",
+        "bundle",
+        "pumukit",
+        "teltek"
+    ],
+    "homepage": "https://github.com/pumukit/PumukitInstallBundle",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Teltek Team",
+            "homepage": "http://teltek.es"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "pumukit/pumukit": ">=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pumukit\\InstallBundle\\": ""
+        }
+    }
+}

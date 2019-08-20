@@ -1,6 +1,6 @@
 <?php
 
-namespace Pumukit\InstallBundleBundle\DependencyInjection;
+namespace Pumukit\InstallBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -12,7 +12,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class PumukitIntallExtension extends Extension
+class PumukitInstallExtension extends Extension
 {
     /**
      * {@inheritdoc}
